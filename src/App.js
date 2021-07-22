@@ -1,10 +1,11 @@
 
 import './App.css';
+import Aboutus from './pages/AboutUs';
 
 function App() {
   return (
     <div className="App">
-        <h1>Pasta is Us</h1>
+       <Aboutus /> 
     </div>
   );
 }
