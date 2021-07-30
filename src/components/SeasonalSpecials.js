@@ -5,8 +5,8 @@ const SeasonalSpecials = () => {
     return (
         <div className='services'>
             <div className='description'>
-                <h2>Enjoy favorites like take home Entre'es for $5
-                Lunch-Sized Favorites, and $15 Bottles of wine</h2>
+                <p>Enjoy favorites like take home Entre'es for $5
+                Lunch-Sized Favorites, and $15 Bottles of wine</p>
             </div>
                 <button>Check out all specials</button>
                 <h2>*Prices and availability vary by location</h2>
