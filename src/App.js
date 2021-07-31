@@ -1,6 +1,7 @@
 
 import './App.css';
 import GlobalStyle from './components/GlobalStyle';
+import MoreAboutUs from './components/MoreAboutUs';
 import Aboutus from './pages/AboutUs';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <GlobalStyle />
        <Aboutus /> 
+       <MoreAboutUs />
     </div>
   );
 }
