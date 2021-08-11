@@ -21,10 +21,14 @@ const AboutSection = () => {
 };
 
 const Header = styled.div`
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    filter: brightness(.4);
+  
+    img{
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        filter: brightness(.4);
+    }
+   
     h2{
         position: absolute;
         padding-bottom: 10rem;
@@ -35,7 +39,9 @@ const Header = styled.div`
         bottom: 0;
         align-items: center;
         justify-content: center;
-        color: blue;
+        color: white;
+        font-weight: bold;
+        font-size: 2rem;
     }
     h3{ 
         position: absolute;
@@ -47,14 +53,14 @@ const Header = styled.div`
         bottom: 0;
         align-items: center;
         justify-content: center;
-        color: blue;  
+        color: white;
+        font-weight: bold;
+        font-size: 2rem;
     }
     button{
         position: absolute;
         top: 25rem;
-        left: 40rem;
-      
-        
+        left: 40rem; 
     }
     
 `;
