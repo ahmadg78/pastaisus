@@ -49,11 +49,11 @@ const MenuHighlights = () => {
 };
 
 const Gallery = styled.div`
-    /* .item1{
+    img{
         width: 100%;
         height: 100%;
         object-fit: cover;
-    } */
+    }
     display: grid;
     grid-template-columns: 200px 200px 200px 200px  ;
     grid-template-rows: 300px 300px 300px 300px 300px;

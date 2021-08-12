@@ -1,45 +1,34 @@
 import React from 'react';
-import home3 from '../img/home3.jpg';
-import home4 from '../img/home4.jpg';
-import home5 from '../img/home5.jpg';
-import home6 from '../img/home5.jpg';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faGifts, faShoppingBasket, faUserAlt } from "@fortawesome/free-solid-svg-icons";
 import styled from 'styled-components';
 import { About, Description, Image } from './styles';
 
+
 const MenuHighlights = () => {
     return (
-        <Services>
-            <Description>
+        <div>
                 <h2>Menu Highlights</h2>
                 <Cards>
-                    <Card>
-                        <Image>
-                            <img src={home3} alt='hi'></img>
-                            <button>Family style meals</button>
-                        </Image>
-                    </Card>
-                    <Card>
-                        <Image>
-                            <img src={home4} alt='hi'></img>
-                            <button>Appetizers</button>
-                        </Image>
-                    </Card>
                         <Card>
-                         <Image>
-                            <img src={home5} alt='hi'></img>
+                        <FontAwesomeIcon icon={faEnvelope}/>
                             <button>Classic Entrees</button>
-                        </Image>
                         </Card>
-                       <Card>
-                            <Image>
-                            <img src={home6} alt='hi'></img>
-                            </Image>
-                            <button>Create your own pasta</button>
-                       </Card>
+                        <Card>
+                        <FontAwesomeIcon icon={faGifts} />
+                            <button>Classic Entrees</button>
+                        </Card>
+                        <Card>
+                        <FontAwesomeIcon icon={faShoppingBasket} />
+                            <button>Classic Entrees</button>
+                        </Card>
+                        <Card>
+                        <FontAwesomeIcon icon={faUserAlt}/>
+                            <button>Classic Entrees</button>
+                        </Card>
                 </Cards>
-            </Description>
-        </Services>
-    );
+          </div>
+    )
 };
 
 const Services = styled(About)``;
