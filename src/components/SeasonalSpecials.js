@@ -21,36 +21,39 @@ const SeasonalSpecials = () => {
 };
 
 const Heading = styled.div`
+    margin-bottom: -7rem;
     h3{
         margin-bottom: 2rem;
     }
 `;
 
 const Section = styled.div`
-     width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    filter: brightness(.4);
-    padding-bottom: 5rem;
+    img{
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        filter: brightness(.4);
+    }
+    
     p{
-        position: absolute;
-        bottom: 20rem;
-        left: 16px;
+        position: relative;
+        bottom: 15rem;
+        right: 300px;
         color: white;
         font-size: 2rem;
     }
     h2{
-        position: absolute;
-        bottom: 10rem;
-        left: 16px;
+        position: relative;
+        bottom: 12rem;
+        right: 330px;
         color: white;
         font-size: 2rem;
 
     }
     button{
-      position: absolute;
+      position: relative;
       bottom: 14rem;
-      left: 16px;
+      right: 300px;
      
       
     }
